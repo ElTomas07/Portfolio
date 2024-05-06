@@ -1,8 +1,7 @@
 .containerExperience{
     display: flex;
-   
-    
-
+    justify-content: center;
+    align-items: center;
 }
 .containerEx{
 

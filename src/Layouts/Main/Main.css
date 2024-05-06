@@ -5,7 +5,10 @@
   
 }
 .profile-text{
-    margin-left: 3rem;
     color: #5a5a5d;
-    font-size: 1rem
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1rem;
 }
