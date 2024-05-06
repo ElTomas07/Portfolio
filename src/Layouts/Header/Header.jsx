@@ -4,7 +4,8 @@ import { Logo } from '../../UI/Logo/Logo'
 import { Navbar } from '../../UI/Navbar/Navbar'
 import { ItemsNavbar } from '../../UI/ItemsNavbar/ItemsNavbar'
 import {Footer} from '../Footer/Footer'
-import Imagen from '../../imagenes/WhatsApp Image 2024-05-06 at 11.11.39 AM.jpeg'
+import Imagen from '../../imagenes/Sin título.jpg'
+import Imagen2 from '../../imagenes/LogoSena1.png'
 
 export const Header = () => {
   return (
@@ -15,7 +16,7 @@ export const Header = () => {
         <Navbar>
           <ItemsNavbar></ItemsNavbar>
         </Navbar>
-        <Logo src='src\imagenes\LogoSena1.png' style='img2'/>
+        <Logo src={Imagen2} style='img2'/>
         <Footer/>
     </header>
   )
